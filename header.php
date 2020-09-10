@@ -9,44 +9,71 @@
   </head>
   <body>
     <header>
+      <div class="top-nav">
+        <div class="container">
+          <div class="nav pre-nav">
+            <ul class="nav info">
+              <li class="nav-item">
+                <a class="nav-link" href="#">support@hostcox.com</a>
+              </li>
+              <li class="nav-link">|</li>
+              <li class="nav-link">+44 7700 900077</li>
+            </ul>
+            <ul class="nav nav-log">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Live Chat</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Support</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <div class="container">
-        <div class="nav pre-nav">
+        <div class="nav main-nav">
           <ul class="nav info">
             <li class="nav-item">
-              <a class="nav-link" href="#">support@hostcox.com</a>
+              <a class="navbar-brand nav-link" href="#">SpaceDrive</a>
             </li>
-            <li class="nav-link">|</li>
-            <li class="nav-link">+44 7700 900077</li>
           </ul>
           <ul class="nav nav-log">
             <li class="nav-item">
-              <a class="nav-link" href="#">Live Chat</a>
+              <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
+              <a class="nav-link" href="#">Domain</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Support</a>
+              <a class="nav-link" href="#">Hosting</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">WHMCS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
         </div>
-        <div class="main-nav">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="logo">
-              <a class="navbar-brand" href="#">SpaceDrive</a>
-            </div>
-            <div class="collapse navbar-collapse main-nav-items" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link" href="#">Home</a>
-                <a class="nav-link" href="#">Domain</a>
-                <a class="nav-link" href="#">Hosting</a>
-                <a class="nav-link" href="#">WHMCS</a>
-                <a class="nav-link" href="#">Blog</a>
-                <a class="nav-link" href="#">Contact</a>
-              </div>
-            </div>
-          </nav>
+      </div>
+      <div class="header-contain">
+        <div class="container">
+          <div class="row row-header-contain">
+          <div class="buy-now">
+            <h1>Powerful  Hosting Service Provider</h1>
+            <p>Millions of customers rely on our products to get their ideas online.</p>
+            <button type="button" name="button" class="btn buy-now-btn">BUY NOW</button>
+          </div>
+
+            <img src="images/header-img.png" alt="" class="header-img">
+
+        </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>

@@ -1,19 +1,29 @@
 /* header */
 
+header{
+  background-color: #8909AD;
+}
+
 /* menu */
 
 /* preNav */
 
+.top-nav{
+  border: solid 1px;
+  border-color: white;
+}
 .pre-nav{
   justify-content: space-between;
-  background-color: green;
 }
 .nav-link{
   text-decoration: none;
-  color: black;
+  color: White;
 }
 
 /* main-nav */
+.main-nav{
+  justify-content: space-between;
+}
 
 .main-nav-items{
   justify-content: flex-end;
@@ -21,4 +31,29 @@
 }
 .navbar-nav a{
   color: black!important;
+}
+
+/* header-contain */
+
+.buy-now{
+  width: 40%;
+}
+h1{
+  color: white;
+}
+.buy-now p{
+  color: white;
+}
+
+.buy-now-btn{
+  background-color: orange;
+  color: white;
+  font-style: bold;
+  border-radius: 50px;
+}
+.row-header-contain{
+  flex-direction: row;
+}
+.header-img{
+  width: 50%;
 }
