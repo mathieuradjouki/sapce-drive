@@ -9,5 +9,44 @@
   </head>
   <body>
     <header>
-      
-    </header>
+      <div class="container">
+        <div class="nav pre-nav">
+          <ul class="nav info">
+            <li class="nav-item">
+              <a class="nav-link" href="#">support@hostcox.com</a>
+            </li>
+            <li class="nav-link">|</li>
+            <li class="nav-link">+44 7700 900077</li>
+          </ul>
+          <ul class="nav nav-log">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Live Chat</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support</a>
+            </li>
+          </ul>
+        </div>
+        <div class="main-nav">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="logo">
+              <a class="navbar-brand" href="#">SpaceDrive</a>
+            </div>
+            <div class="collapse navbar-collapse main-nav-items" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#">Domain</a>
+                <a class="nav-link" href="#">Hosting</a>
+                <a class="nav-link" href="#">WHMCS</a>
+                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="#">Contact</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>

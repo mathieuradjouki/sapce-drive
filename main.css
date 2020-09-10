@@ -1,0 +1,24 @@
+/* header */
+
+/* menu */
+
+/* preNav */
+
+.pre-nav{
+  justify-content: space-between;
+  background-color: green;
+}
+.nav-link{
+  text-decoration: none;
+  color: black;
+}
+
+/* main-nav */
+
+.main-nav-items{
+  justify-content: flex-end;
+  color: black;
+}
+.navbar-nav a{
+  color: black!important;
+}
