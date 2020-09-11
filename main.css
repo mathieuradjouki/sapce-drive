@@ -1,15 +1,19 @@
-/* header */
+/* top-section */
 
-header{
-  background-color: #8909AD;
+.top-section{
+  background-color: #1F08A2;
+  background-image: url('images/background-header.png');
+  background-size: cover;
 }
+
+/* header */
 
 /* menu */
 
 /* preNav */
 
 .top-nav{
-  border: solid 1px;
+  border-bottom: solid 1px;
   border-color: white;
 }
 .pre-nav{
@@ -34,9 +38,12 @@ header{
 }
 
 /* header-contain */
-
+.row-header-contain{
+  justify-content: space-between;
+}
 .buy-now{
   width: 40%;
+  margin-top: 15%;
 }
 h1{
   color: white;
@@ -56,4 +63,45 @@ h1{
 }
 .header-img{
   width: 50%;
+  margin-top: 5%;
+}
+
+/* search-domain */
+
+.search-domain{
+  text-align: center;
+}
+
+h2{
+  color: white;
+}
+
+/* form domain */
+
+.input-domain{
+  width: 50%;
+  border-radius: 60px;
+  border: none;
+  height: 50px;
+}
+.domain-btn{
+  color: white;
+  background-color: #F873CF;
+  border-radius: 60px;
+  border: none;
+  height: 50px;
+  width: 10%;
+  position: absolute;
+  z-index: 1;
+  transform: translateX(-110px);
+}
+.search-domain p{
+  color: white;
+}
+
+/* top-service */
+
+.top-service{
+  display: flex;
+  justify-content: space-between;
 }
