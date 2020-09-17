@@ -2,5 +2,6 @@
 
 <?php include('search.php'); ?>
 <?php include('about.php'); ?>
+<?php include('services.php'); ?>
 
 <?php include('footer.php'); ?>

@@ -154,3 +154,9 @@ h2{
 .about-img img{
   width: 100%;
 }
+
+/* sercices */
+
+.services h2{
+  color: black;
+}
