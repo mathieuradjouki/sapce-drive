@@ -160,3 +160,40 @@ h2{
 .services h2{
   color: black;
 }
+/* secure */
+
+.secure{
+  background-color: #211F87;
+}
+
+.secure-service{
+  display: flex;
+  padding: 10% 0 10% 0;
+  /* height: 100vh; */
+}
+.secure-service-text{
+  width: 50%;
+  margin-top: 10%;
+}
+.secure-service-img{
+  width: 50%;
+}
+.secure h4{
+  color: white;
+  margin-bottom: 5%;
+}
+.secure p{
+  color: white;
+  margin-bottom: 5%;
+}
+.secure li{
+  color: white;
+  list-style: none;
+  margin-bottom: 3%;
+}
+.secure ul{
+  padding: inherit;
+}
+.secure-service-img img{
+  height: 75%;
+}
