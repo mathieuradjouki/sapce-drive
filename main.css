@@ -168,7 +168,7 @@ h2{
 /* secure service css */
 .secure-service{
   display: flex;
-  padding: 10% 0 10% 0;
+  padding-top: 10%;
   justify-content: space-between;
   /* height: 100vh; */
 }
@@ -184,7 +184,6 @@ h2{
 /* secure domain css */
 .secure-domain{
   display: flex;
-  padding: 10% 0 10% 0;
   justify-content: space-between;
   /* height: 100vh; */
 }
@@ -214,5 +213,8 @@ h2{
   padding: inherit;
 }
 .secure-service-img img{
+  height: 75%;
+}
+.secure-domain-img img{
   height: 75%;
 }
