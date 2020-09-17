@@ -165,18 +165,37 @@ h2{
 .secure{
   background-color: #211F87;
 }
-
+/* secure service css */
 .secure-service{
   display: flex;
   padding: 10% 0 10% 0;
+  justify-content: space-between;
   /* height: 100vh; */
 }
 .secure-service-text{
-  width: 50%;
+  width: 45%;
   margin-top: 10%;
 }
 .secure-service-img{
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+}
+/* secure domain css */
+.secure-domain{
+  display: flex;
+  padding: 10% 0 10% 0;
+  justify-content: space-between;
+  /* height: 100vh; */
+}
+.secure-domain-text{
   width: 50%;
+  margin-top: 10%;
+}
+.secure-domain-img{
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
 }
 .secure h4{
   color: white;
