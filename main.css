@@ -124,14 +124,14 @@ h2{
 
 /* about */
 
-.choose{
+.about{
   background-image: url('images/choose-background.png');
   padding: 9% 0 9% 0;
 }
 /* .background-opacity{
   background-color: rgba(16, 1, 205, 0.5);
 } */
-.about{
+.about-text{
   display: flex;
 }
 .presentation{
@@ -217,4 +217,34 @@ h2{
 }
 .secure-domain-img img{
   height: 75%;
+}
+
+/* plan */
+
+.plan{
+  background-image: url('images/plan.png');
+  background-size: cover;
+  padding-top: 5%;
+  height: 100vh;
+}
+.p-plan{
+  color: white;
+}
+.gb-img{
+  height: 20%;
+  width: auto;
+  margin-left: 50%;
+  transform: translateX(-40px);
+}
+.first{
+  background-color: #915EF6;
+}
+.second{
+  background-color: #68C4E8;
+}
+.third{
+  background-color: #68D894;
+}
+.plan-btn{
+  color: white;
 }

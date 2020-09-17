@@ -4,5 +4,6 @@
 <?php include('about.php'); ?>
 <?php include('services.php'); ?>
 <?php include('secure.php'); ?>
+<?php include('plan.php'); ?>
 
 <?php include('footer.php'); ?>
