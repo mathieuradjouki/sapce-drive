@@ -248,3 +248,26 @@ h2{
 .plan-btn{
   color: white;
 }
+footer{
+  background-color: #1B1543;
+  color: white;
+}
+.items{
+  display: flex;
+  justify-content: space-around;
+}
+footer ul{
+  padding: inherit;
+}
+footer ul li{
+  list-style: none;
+}
+footer img{
+  margin: 2% auto 2% 5%;
+  width: 90%;
+}
+.copyright{
+  display: flex;
+  justify-content: space-between;
+  margin: 1% 5% auto 5%;
+}
