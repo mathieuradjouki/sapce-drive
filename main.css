@@ -9,6 +9,11 @@ header{
 
 /* menu */
 
+/* nav */
+.link{
+  text-decoration: none;
+  color: White;
+}
 /* preNav */
 
 .top-nav{
@@ -18,9 +23,8 @@ header{
 .pre-nav{
   justify-content: space-between;
 }
-.nav-link{
-  text-decoration: none;
-  color: White;
+.icon{
+  display: none;
 }
 
 /* main-nav */
@@ -29,8 +33,7 @@ header{
 }
 
 .main-nav-items{
-  justify-content: flex-end;
-  color: black;
+  margin-top: 1.5%;
 }
 .navbar-nav a{
   color: black!important;
@@ -271,3 +274,7 @@ footer img{
   justify-content: space-between;
   margin: 1% 5% auto 5%;
 }
+
+/* media query */
+
+/* media header */

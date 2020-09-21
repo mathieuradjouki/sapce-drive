@@ -13,55 +13,34 @@
         <div class="top-nav">
           <div class="container">
             <div class="nav pre-nav">
-              <ul class="nav info">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">support@hostcox.com</a>
-                </li>
-                <li class="nav-link">|</li>
-                <li class="nav-link">+44 7700 900077</li>
-              </ul>
-              <ul class="nav nav-log">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Live Chat</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Login</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Support</a>
-                </li>
-              </ul>
+              <div class="nav-info">
+                <a class="link" href="#">support@hostcox.com</a>
+                <span class="link mx-3">|</span>
+                <span class="link mx-3">+44 7700 900077</span>
+              </div>
+              <div class="nav nav-log">
+                <a class="link mx-3" href="#">Live Chat</a>
+                <a class="link mx-3" href="#">Login</a>
+                <a class="link mx-3" href="#">Support</a>
+              </div>
             </div>
           </div>
         </div>
         <!-- Second navbar -->
         <div class="container">
           <div class="nav main-nav">
-            <ul class="nav info">
-              <li class="nav-item">
-                <a class="navbar-brand nav-link" href="#">SpaceDrive</a>
-              </li>
-            </ul>
-            <ul class="nav nav-log">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Domain</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Hosting</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">WHMCS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
+              <a class="navbar-brand link" href="#">SpaceDrive</a>
+            <div class="main-nav-items">
+              <a class="link mx-3" href="#">Home</a>
+              <a class="link mx-3" href="#">Domain</a>
+              <a class="link mx-3" href="#">Hosting</a>
+              <a class="link mx-3" href="#">WHMCS</a>
+              <a class="link mx-3" href="#">Blog</a>
+              <a class="link mx-3" href="#">Contact</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
           </div>
         </div>
   <!-- header contain -->
@@ -78,4 +57,3 @@
           </div>
         </div>
       </header>
-      
