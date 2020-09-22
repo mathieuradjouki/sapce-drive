@@ -69,6 +69,11 @@ function check($input){
   return $input;
 }
 
+$cardService = $dB->query("SELECT `image`, `titre`, `contenu` FROM `countries`");
+  while($donnees = $cardService->fetch()){
+
+  }
+
 
 
 
