@@ -13,6 +13,15 @@ header{
 .link{
   text-decoration: none;
   color: White;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  .pre-nav-kin
+}
+.pre-nav-link{
+  text-decoration: none;
+  color: White;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 /* preNav */
 
@@ -25,6 +34,8 @@ header{
 }
 .icon{
   display: none;
+  margin-top: 1.5%;
+  margin-right: 2%;
 }
 
 /* main-nav */
@@ -37,6 +48,12 @@ header{
 }
 .navbar-nav a{
   color: black!important;
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 2px;
+  background-color: white;
+  margin: 6px 0;
 }
 
 /* header-contain */
@@ -278,3 +295,21 @@ footer img{
 /* media query */
 
 /* media header */
+/* nav */
+@media screen and (max-width: 770px){
+  .main-nav-items{
+    display: none;
+  }
+  .icon{
+    display: block!important;
+    float: right;
+    color: white;
+  }
+@media screen and (max-width: 770px){
+  .main-nav-items.responsive{position: relative;}
+  .icon{
+    
+  }
+@media screen and (max-width: 765px){
+
+}

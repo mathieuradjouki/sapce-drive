@@ -10,18 +10,18 @@
   <body>
       <header>
         <!-- First navbar -->
-        <div class="top-nav">
+        <div class="top-nav py-2">
           <div class="container">
             <div class="nav pre-nav">
               <div class="nav-info">
-                <a class="link" href="#">support@hostcox.com</a>
-                <span class="link mx-3">|</span>
-                <span class="link mx-3">+44 7700 900077</span>
+                <a class="pre-nav-link" href="#">support@hostcox.com</a>
+                <span class="pre-nav-link">|</span>
+                <span class="pre-nav-link">+44 7700 900077</span>
               </div>
               <div class="nav nav-log">
-                <a class="link mx-3" href="#">Live Chat</a>
-                <a class="link mx-3" href="#">Login</a>
-                <a class="link mx-3" href="#">Support</a>
+                <a class="pre-nav-link" href="#">Live Chat</a>
+                <a class="pre-nav-link" href="#">Login</a>
+                <a class="pre-nav-link" href="#">Support</a>
               </div>
             </div>
           </div>
@@ -31,14 +31,18 @@
           <div class="nav main-nav">
               <a class="navbar-brand link" href="#">SpaceDrive</a>
             <div class="main-nav-items">
-              <a class="link mx-3" href="#">Home</a>
-              <a class="link mx-3" href="#">Domain</a>
-              <a class="link mx-3" href="#">Hosting</a>
-              <a class="link mx-3" href="#">WHMCS</a>
-              <a class="link mx-3" href="#">Blog</a>
-              <a class="link mx-3" href="#">Contact</a>
-              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
+              <a class="link" href="#">Home</a>
+              <a class="link" href="#">Domain</a>
+              <a class="link" href="#">Hosting</a>
+              <a class="link" href="#">WHMCS</a>
+              <a class="link" href="#">Blog</a>
+              <a class="link" href="#">Contact</a>
+            </div>
+            <div class="icon">
+              <a href="javascript:void(0)" id="burger-menu">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
               </a>
             </div>
           </div>
