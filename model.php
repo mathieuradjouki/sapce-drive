@@ -69,13 +69,7 @@ function check($input){
   return $input;
 }
 
-$cardService = $dB->query("SELECT `image`, `titre`, `contenu` FROM `countries`");
-  while($donnees = $cardService->fetch()){
-
-  }
-
-
-
-
-
+$cardService = $dB->query("SELECT `titre`, `Presentation` FROM `nosservices`");
+  $donnees = $cardService->fetchAll();
+  $_SESSION['NosServices']=$donnees;
  ?>
