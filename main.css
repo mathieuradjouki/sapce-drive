@@ -77,13 +77,10 @@ h1{
   text-align: center;
   transform: translateY(-120px);
 }
-
 h2{
   color: white;
 }
-
 /* form domain */
-
 .input-domain{
   width: 50%;
   border-radius: 60px;
@@ -301,5 +298,8 @@ footer img{
 /* backoffice */
 
 .FormNewNosServices{
+  display: none;
+}
+.FormUpdateNosServices{
   display: none;
 }

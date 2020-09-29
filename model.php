@@ -70,21 +70,30 @@ function check($input){
   return $input;
 }
 
-// function updateTableNosServices(){
-//   $servername = "localhost";
-//   $dbname = "spacedrivebdd";
-//   $username = "root";
-//   $password = "";
-//
-//   try{
-//     $dB = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
-//     //On définit le mode d'erreur de PDO sur Exception
-//     $dB->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-//   } catch(PDOException $e) {
-//     die('erreur :'.$e->getMessage());
-//   }
-//   $query = ""
-// }
+function updateTableNosServices(){
+  $servername = "localhost";
+  $dbname = "spacedrivebdd";
+  $username = "root";
+  $password = "";
+
+  try{
+    $dB = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+    //On définit le mode d'erreur de PDO sur Exception
+    $dB->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  } catch(PDOException $e) {
+    die('erreur :'.$e->getMessage());
+  }
+  $query = "UPDATE `nosservices` SET `titre`= :titre, `Presentation`= :presentation, `icone`= :icone WHERE `id_NosServices`= :id";
+  $request = $db->prepare($query);
+  $arrayValue=[
+    'id'=>$id;
+    ':titre'=>$newTitre;
+    ':presentation'=>$newPresentation;
+    ':icone'=>$newIcone
+  ];
+  $request->execute($arrayValue);
+  $request->closeCursor();
+}
 
 $cardService = $dB->query("SELECT * FROM `nosservices` ORDER BY id_NosServices DESC LIMIT 0, 6");
   $donnees = $cardService->fetchAll();
