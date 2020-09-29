@@ -31,7 +31,7 @@
             foreach ($_SESSION['NosServices'] as $value) {
         ?>
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100 card-services">
             <img src="<?='images/'.$value['icone']?>" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title"><?= $value['titre']?></h5>

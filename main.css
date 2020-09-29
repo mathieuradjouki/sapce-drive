@@ -156,9 +156,20 @@ h2{
 }
 
 /* sercices */
-
+.services{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
 .services h2{
   color: black;
+}
+.card-services img{
+  width: 20%;
+  margin-left: 4%;
+}
+.card-services{
+  border: none;
 }
 /* secure */
 
