@@ -1,8 +1,9 @@
 <?php include('header.php'); ?>
 
 <div class="container">
-  <button type="button" name="ajouter" class="backbuttonform btn btn-primary" id="ajouter">Ajouter un service</button>
-
+  <button class="backbuttonform btn btn-primary" id="add">Ajouter un service</button>
+  
+<!-- formulaire d'ajout de nouveau service -->
   <div class="FormNewNosServices" id="FormNewNosServices">
     <!-- enctype=multipart definit le type utilisé pour encoder les données envoyé au serveur -->
     <form class="BackForm" action="traitement.php" method="post" enctype="multipart/form-data">
