@@ -9,12 +9,16 @@ if(isset($_POST['newTableNosServices'])){
   }
 }
 
-if(isset($_POST['newTitreNS']) && isset($_POST['newPresaNS'])){
+if(isset($_POST['newTitreNS']) && isset($_POST['newPresaNS']) && isset($_FILES['newIconeNS'])){
   $titre = $_POST['newTitreNS'];
   $presentation = $_POST['newPresaNS'];
+  $icone = $_FILES['newIconeNS']['name'];
+  $dir = "images/.$icone";
+  move_uploaded_file($_FILES['newIconeNS']['tmp_name'], $dir);
   $titre = check($titre);
   $presentation = check($presentation);
-  newContentNosServices($titre, $presentation);
+  $icone = check($icone);
+  newContentNosServices($titre, $presentation, $icone);
   header('location:backoffice.php');
 }
 ?>
