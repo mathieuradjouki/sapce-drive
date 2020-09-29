@@ -251,10 +251,25 @@ h2{
 footer{
   background-color: #1B1543;
   color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 .items{
   display: flex;
   justify-content: space-around;
+}
+.submit-footer{
+  background-color: #3ECCED;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transform: translateX(-15px);
+  height: 28px;
+}
+.newsletter input{
+  border: none;
+  height: 28px;
+  border-radius: 5px;
 }
 footer ul{
   padding: inherit;
